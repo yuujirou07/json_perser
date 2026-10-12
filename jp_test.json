@@ -1,0 +1,62 @@
+{
+  "company": "株式会社テクノロジーサンプル",
+  "founded": 2018,
+  "active": true,
+  "headquarters": {
+    "country": "Japan",
+    "city": "Tokyo",
+    "address": "品川区大崎 1-2-3 テックビル 10階"
+  },
+  "departments": [
+    {
+      "id": "dept-01",
+      "name": "開発部",
+      "manager": {
+        "name": "佐藤 健",
+        "email": "sato@example.com",
+        "ext": 401
+      },
+      "staffCount": 15,
+      "projects": [
+        {
+          "code": "PRJ-101",
+          "title": "次世代クラウド基盤構築",
+          "status": "in_progress",
+          "budget": 12500000,
+          "tags": ["cloud", "kubernetes", "go"]
+        },
+        {
+          "code": "PRJ-102",
+          "title": "社内ポータル刷新",
+          "status": "completed",
+          "budget": 3200000,
+          "tags": ["react", "node.js"]
+        }
+      ]
+    },
+    {
+      "id": "dept-02",
+      "name": "マーケティング部",
+      "manager": {
+        "name": "鈴木 花子",
+        "email": "suzuki@example.com",
+        "ext": 402
+      },
+      "staffCount": 8,
+      "projects": [
+        {
+          "code": "PRJ-201",
+          "title": "秋季グローバルキャンペーン",
+          "status": "planning",
+          "budget": 8000000,
+          "tags": ["sns", "branding", "ad"]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.4",
+    "lastUpdated": "2026-10-12T15:00:00Z",
+    "generator": "CustomExporterScript"
+  }
+}
